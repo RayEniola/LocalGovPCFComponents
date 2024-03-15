@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="Adress" constructor="AddressFieldSet" version="0.0.3" display-name-key="AddressFieldSet" description-key="AddressFieldSet description" control-type="standard" api-version="1.3.11">
+    <external-service-usage enabled="false"/>
+    <property name="FieldTitle" display-name-key="Fieldset Title" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="BuildingName" display-name-key="Building Name" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="ShowBuildingName" display-name-key="Show Building Name" description-key="show or hide the building name" usage="input" of-type="Enum" required="false">
+      <value name="Yes" display-name-key="Yes" description-key="Yes">Yes</value>
+      <value name="No" display-name-key="No" description-key="No" default="true">No</value>
+    </property>
+    <property name="address_line_1" display-name-key="Address line 1" description-key="The address line 1." of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="address_line_2" display-name-key="Address line 2" description-key="The address line 2." of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="county" display-name-key="County or State" description-key="The address county or state" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="town" display-name-key="City" description-key="The address city or town." of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="postcode" display-name-key="Post Code" description-key="The address post code or zip code." of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="country" display-name-key="Country" description-key="The address country." of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="country_code" display-name-key="Country Code" description-key="The default country code you want to search against (ex:CA/US). (Default: CA)" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="option_allowcountry" display-name-key="Allow user to change country" description-key="If the user can change the country for the autocomplete" of-type="SingleLine.Text" usage="input"/>
+    <resources>
+      <code path="bundle.js" order="1"/>
+      <css path="css/AddressFieldSet.css" order="1"/>
+    </resources>
+    <built-by name="pac" version="1.30.2"/>
+  </control>
+</manifest>

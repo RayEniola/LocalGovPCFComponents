@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\ComponentLibraryResearch\\PCF\\AddressFieldset\\AddressFieldset.pcfproj": {}
+  },
+  "projects": {
+    "C:\\dev\\ComponentLibraryResearch\\PCF\\AddressFieldset\\AddressFieldset.pcfproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\ComponentLibraryResearch\\PCF\\AddressFieldset\\AddressFieldset.pcfproj",
+        "projectName": "AddressFieldset",
+        "projectPath": "C:\\dev\\ComponentLibraryResearch\\PCF\\AddressFieldset\\AddressFieldset.pcfproj",
+        "packagesPath": "C:\\Users\\RahmanOlamideEniola\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\ComponentLibraryResearch\\PCF\\AddressFieldset\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RahmanOlamideEniola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.PowerApps.MSBuild.Pcf": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

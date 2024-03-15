@@ -1,0 +1,2 @@
+C:\dev\ComponentLibraryResearch\PCF\AddressFieldset\obj\Debug\AddressFieldset.pcfproj.AssemblyReference.cache
+C:\dev\ComponentLibraryResearch\PCF\AddressFieldset\obj\Debug\AddressFieldset.pcfproj.CoreCompileInputs.cache
